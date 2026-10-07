@@ -1,205 +1,255 @@
-# Digitaler Raum – Tunnel V4
+# THRESHOLD
 
-Browserbasierte immersive VR-/WebXR-Kunstinstallation aus dem Studiengang Objekt- und Raumdesign. Das Projekt wird aktuell von einem zweiköpfigen Team entwickelt und untersucht Tourette-Syndrom, unwillkürliche Impulse, Kontrollverlust und körperliche Wahrnehmung als räumliche und audiovisuelle Erfahrung.
+## Eine immersive VR-Erfahrung über Tourette, Kontrollverlust und Reizüberflutung
 
-Die Installation ist keine medizinische Simulation. Sie übersetzt subjektive Zustände in eine Dramaturgie aus Ruhe, Irritation, Kontrollverlust, räumlicher Verdichtung, Überforderung, weißer Entladung und einer veränderten Rückkehr an den Ausgangsort.
+![THRESHOLD – Ausgangspunkt der Experience](assets/ui/idyll-start.png)
 
-## Experience
+**Semesterprojekt im Kurs Digitaler Raum**<br>
+**Bachelor Objekt- und Raumdesign**
 
-Der implementierte Ablauf ist:
+**Projektteam**<br>
+Johannes Rother-Stawitzki<br>
+Malte Bongartz
+
+## Live Experience
+
+[THRESHOLD über GitHub Pages starten](https://johannesrother.github.io/THRESHOLD/)
+
+Für die immersive Nutzung werden ein WebXR-kompatibler Browser und ein unterstütztes VR-Headset benötigt. Die finale Version wurde für die Meta Quest 3 entwickelt und auf dem Gerät getestet. Eine Desktopdarstellung ist ebenfalls verfügbar.
+
+## Konzept
+
+THRESHOLD ist eine browserbasierte VR-Erfahrung, die sich mit Tourette, unwillkürlichen Impulsen, Kontrollverlust und zunehmender Reizüberflutung beschäftigt. Ausgangspunkt des Projekts war die Frage:
+
+> Wie lassen sich Tourette, unwillkürliche Impulse und zunehmende Reizüberflutung in eine räumliche audiovisuelle Erfahrung übersetzen?
+
+Die Arbeit ist keine medizinische Simulation und erhebt nicht den Anspruch, die individuellen Erfahrungen von Menschen mit Tourette vollständig abzubilden. Sie übersetzt ausgewählte Aspekte – unwillkürliche Impulse, Kontrollverlust, veränderte Wahrnehmung, körperliche Irritation, Überforderung und Entladung – in eine räumliche und audiovisuelle Dramaturgie.
+
+Die Umgebung wird dabei nicht nur betrachtet. Die Nutzerinnen und Nutzer befinden sich körperlich innerhalb der inszenierten Situation. Raum, Bewegung, Bild und Klang bilden deshalb keine voneinander getrennten Ebenen, sondern wirken als zusammenhängendes Wahrnehmungssystem.
+
+## Der Titel
+
+„Threshold“ bedeutet Schwelle oder Grenzwert. Der Titel beschreibt den dramaturgischen Kern der Arbeit: Im Verlauf der Experience werden mehrere Wahrnehmungsschwellen überschritten.
 
 ```text
-WARME IDYLLE
+KONTROLLE
+→ IRRITATION
+→ KONTROLLVERLUST
+→ ÜBERFORDERUNG
+→ ENTLADUNG
+→ NACHWIRKUNG
+```
+
+Die Schwelle ist dabei kein einzelner Moment. Sie entsteht als fortlaufender Übergang zwischen unterschiedlichen Zuständen, in denen sich Orientierung, Handlungssicherheit und Reizdichte zunehmend verändern.
+
+## Dramaturgie
+
+```text
+IDYLLE
 → RIFT
 → TUNNEL
+→ REIZÜBERFLUTUNG
+→ SOG
 → WHITE ROOM
-→ TWILIGHT-IDYLLE
+→ TWILIGHT / NACHWIRKUNG
 → REEXPERIENCE
 ```
 
-Die Experience startet über einen vorgeschalteten Loading-/Startscreen. Nach dem Start bewegt sich die Kamera automatisch durch die Szene; auf einem kompatiblen Headset bleibt die physische Kopfbewegung innerhalb dieser geführten Route erhalten.
+### 1. Idylle
 
-## 1. Idylle
+Die Experience beginnt in einer ruhigen, warmen und scheinbar sicheren Landschaft. Wiese, Gras, Blumen, Bäume, Hügel, Haus und Himmel bilden eine offene Umgebung mit langen Sichtachsen. Die Gestaltung vermittelt zunächst Ruhe, Orientierung, Sicherheit und Vorhersehbarkeit.
 
-Die erste Phase bildet den ruhigen Gegenpol zum späteren Tunnel. Eine offene Wiesenlandschaft mit dichtem Gras, Blumen, Bäumen, Felsen, sanften Hintergrundformen, einem Haus und einem Toon-Skydome wird von warmem Füll- und Sonnenlicht beleuchtet. Die ruhige Idylle-Audiospur läuft als Schleife.
+Diese Ausgangssituation ist bewusst klar lesbar. Sie schafft den Kontrast, der für die spätere Verdichtung entscheidend ist. Der räumliche Übergang befindet sich bereits in der Landschaft, tritt jedoch erst im Verlauf deutlich hervor.
 
-Die Kamera beginnt in der Landschaft und nähert sich dem Rift-Bereich links neben dem Haus. Die Idylle wurde entlang der transparent sichtbaren Tunnelroute erweitert, damit hinter der Tunnelmembran weiterhin Landschaft statt einer leeren Szenengrenze erscheint.
+### 2. Rift und Übergang
 
-## 2. Rift und Übergang
+Bei der Annäherung an das Rift beginnt die vorher stabile Situation zu kippen. Lichtveränderungen, visuelle Irritationen, ein einsetzender Herzschlag und die Verschiebung der Klanglandschaft bereiten den Übergang vor.
 
-Das Rift entsteht erst während der Annäherung. Es verbindet eine unsichtbare technische Stencil-Aperture mit einer transparenten, organischen Portalwirkung und einer Vorschau auf den Tunnel. Die Idylle bleibt durch das Portal teilweise wahrnehmbar.
+Das Rift funktioniert als räumliche Schwelle zwischen Idylle und Tunnel. Seine transparente, membranartige Erscheinung lässt Landschaft und Tunnel gleichzeitig wahrnehmbar werden. Beim Crossing wird die Idylle nicht durch einen willkürlichen Timer, sondern durch die tatsächliche räumliche Überschreitung in die Tunnelphase überführt.
 
-Vor und während der Öffnung steigern kopfrelative Lichtreflexe, weiche Nachbilder und eine lokale Lichtreaktion die visuelle Irritation. Parallel wird die Idylle-Audiospur abgesenkt, ein Herzschlag eingeblendet und ein eigener Rift-Sound gestartet. Beim räumlichen Crossing werden Idylle und Rift-Audio ausgeblendet; der vorhandene Tunnel-Sound übernimmt mit einem Fade-in. Die Crossing-Ebene, die Stencil-Aperture und der Tunnelanfang werden von einer gemeinsamen Übergangslogik gesteuert.
+### 3. Tunnel
 
-## 3. Tunnel
+Der Tunnel bildet den zentralen Erfahrungsraum von THRESHOLD. Seine organische, transparente Hülle folgt einer festgelegten gekrümmten Route und verengt sich im Verlauf kontinuierlich. Zu Beginn bleibt die Idylle teilweise durch die Tunnelstruktur sichtbar. Die Ausgangswelt verschwindet damit nicht sofort, sondern wird zunehmend von neuen Reizen überlagert.
 
-Der Tunnel ist eine kontinuierliche, nach innen gerenderte biomorphe Hülle entlang einer gekrümmten Route. Makroformen, Rippen, Finnen, Falten, Normalmaps, bewegte Morph-Targets und kamerabegleitende Lichtquellen erzeugen eine lebendige Wandstruktur. Das transparente Membranmaterial lässt die erweiterte Idylle zunächst weiterhin durchscheinen.
+Die Vorwärtsbewegung folgt weiterhin derselben Route, verändert jedoch ihre Geschwindigkeit. Langsame Phasen, normale Fahrt und abrupte Beschleunigungen wechseln einander ab. Dadurch wird die Bewegung weniger vorhersehbar, ohne die räumliche Kontinuität des Weges aufzulösen.
 
-Die Geometrie verengt sich kontinuierlich von einem offenen Eingang bis zu einem stark komprimierten Endprofil. Für die begehbare Route gelten Sicherheitsgrenzen; die minimale vertikale Durchgangshöhe liegt im aktuellen Code bei etwa 1,2 Metern. Gegen Ende wird die Decke dadurch so niedrig, dass stehende Nutzerinnen und Nutzer in VR körperlich reagieren und sich ducken oder gegebenenfalls hinknien müssen. Der Bodenbereich bleibt gegenüber den Wandverformungen stabilisiert.
+### 4. Unwillkürliche Impulse
 
-Die Tunnelroute und ihre geometrische Länge bleiben unverändert. Die nominelle Tunnelprogression reicht von 0 bis 60; durch die variable Geschwindigkeitssteuerung entspricht dieser Wert nicht durchgehend einer starren Echtzeitdauer.
+Während der Tunnelfahrt treten kurze, abrupte Rotationsimpulse auf. Sie sind nicht als kontinuierliches Kamerawackeln angelegt, sondern als einzelne motorisch wirkende Ereignisse mit unterschiedlicher Stärke und Dauer. Manche Ereignisse bestehen aus mehreren schnell aufeinanderfolgenden Impulsen; anschließend kehrt der virtuelle Offset vollständig in seinen neutralen Zustand zurück.
 
-## 4. Video-System
+In WebXR werden diese Bewegungen zusätzlich zur realen Kopfbewegung ausgeführt. Das physische Headtracking bleibt erhalten. Die Impulse verändern nicht dauerhaft die Kameraposition oder den Verlauf der Tunnelroute, sondern erzeugen vorübergehend das Gefühl einer nicht vollständig selbst kontrollierbaren Wahrnehmungsbewegung.
 
-Die Videos werden nicht auf separaten Screens oder Planes gezeigt. Ein Material-Plugin mischt eine `VideoTexture` über die vollständige Tunnelhülle. Die vorhandenen Tunnel-UVs werden dafür zu einer durchgehenden Full-Tunnel-Projektionsfläche umgerechnet; Materialstruktur und Video bleiben gleichzeitig sichtbar.
+### 5. Video und veränderte Wahrnehmung
 
-Aktuell werden vier Videos verwendet:
+Die Videos erscheinen nicht als separate Bildschirme. Sie werden direkt auf die innere Oberfläche des Tunnels übertragen und dadurch Bestandteil des Raumes. Bild, Geometrie und Bewegung beginnen sich zu überlagern.
+
+Die bestehende Sequenz verwendet vier Videos:
 
 ```text
 12 → 2 → 25 → 16
 ```
 
-Video 12 wird beim Aufbau des Systems als Startquelle angelegt und beginnt mit der Tunnelphase. Die Wechsel zu Video 2, 25 und 16 sind an ausgewählte Tic-Ereignisse gekoppelt. Das jeweils nächste Video wird 1,5 Sekunden vor dem Wechsel vorbereitet und erst nach einem verfügbaren Bild übernommen. Danach wird die vorherige Quelle pausiert und freigegeben. Damit sind dauerhaft höchstens die aktuelle und eine vorbereitete Videoquelle aktiv. Beim Reset wird Video 12 wieder als erste Quelle hergestellt.
+Video 12 beginnt mit der Tunnelphase. Die weiteren Wechsel sind an ausgewählte Impulsereignisse gekoppelt. Im Verlauf nimmt zugleich die Farbsättigung ab, bis die Umgebung in eine weitgehend schwarz-weiße Wahrnehmung übergeht. Die Kopplung von Video, Bewegung und Geschwindigkeit bleibt bewusst teilweise unvorhersehbar.
 
-## 5. Tic-System
+### 6. Klang
 
-Die Tourette-inspirierten Bewegungen sind keine kontinuierliche Verwacklung und kein sinusförmiges Camera Shake. Acht einzelne Ereignisse setzen abrupt ein, schlagen kurz aus und kehren anschließend vollständig zum normalen Rotationsoffset zurück. Die Sequenz enthält einen Einzel-Tic, vier Doppel-Tics und drei Dreifach-Tics mit unregelmäßigen Abständen und unterschiedlichen Richtungen.
+Sound ist ein gleichwertiges räumliches Gestaltungsmittel. Die ruhige Klangwelt der Idylle verändert sich bereits vor dem Tunneleintritt. Herzschlag und Rift-Klang markieren die Annäherung an die Schwelle; beim Crossing übernimmt der Tunnelklang.
 
-Der Schwerpunkt liegt auf Ausschlägen nach rechts. Die aktuelle Konfiguration erreicht punktuell bis zu 70° nach rechts und verwendet kleinere linke Gegenimpulse bis 22°. Drei der stärkeren Ereignisse lösen gleichzeitig die Video-Cuts zu 2, 25 und 16 aus.
+Im Tunnel wächst eine zunehmend dichte auditive Schichtung aus:
 
-Für Desktop und WebXR wird der Offset auf den gemeinsamen Locomotion-Root angewendet. Der vorherige Offset wird vor jedem neuen Frame entfernt. Dadurch bleibt die XR-Kamera für reales Headtracking frei, und kein Tic hinterlässt eine dauerhafte Veränderung der Blickrichtung oder Position.
+- Tunnelklang
+- Stimmen
+- Verkehrsgeräuschen
+- zusätzlichen Klangfragmenten
+- räumlich konkurrierenden Geräuschen
+- Sog
+- Flatline im White Room
 
-## 6. Variable Geschwindigkeit
+Die einzelnen Ebenen werden nicht einfach gegeneinander ausgetauscht. Sie treten hinzu, überlagern sich, verändern ihre Präsenz und lösen sich wieder. Dadurch entsteht eine Klangdramaturgie, die die visuelle und körperliche Entwicklung begleitet, ohne sie vollständig zu spiegeln.
 
-Die Vorwärtsbewegung folgt weiterhin derselben geometrischen Route, ihre Geschwindigkeit verändert sich jedoch entlang einer eigenen Dramaturgie. Der aktuelle Multiplikator reicht von `0,45×` bis `2,8×` der normalen Tunnelgeschwindigkeit.
+### 7. Reizüberflutung
 
-Langsame Hemmungsphasen wechseln mit normaler Fahrt und kurzen, starken Beschleunigungen. Mehrere Wechsel liegen unmittelbar nach ausgewählten Tic-Ereignissen; nicht jedes Tic verändert die Geschwindigkeit. Die zurückgelegte Strecke wird aus dem Geschwindigkeitsprofil integriert, sodass keine Teleports oder ausgelassenen Routenabschnitte entstehen. Diese Unregelmäßigkeit unterstützt den Kontrollverlust, ohne den Tunnelpfad zu verändern.
-
-## 7. Tunnelverengung
-
-Die entlang der Route modellierte Verengung bleibt dauerhaft Bestandteil der Tunnelbasisform. Ein zusätzliches rhythmisches Breathing-System ist nicht aktiv.
-
-## 8. Audio
-
-Die Audioarchitektur verwendet wiederverwendbare HTML-Audioelemente und ist an die Experience-Zustände gekoppelt:
-
-- Die Idylle-Audiospur läuft zu Beginn als Schleife.
-- Vor dem Rift wird sie auf 75 Prozent ihres Ausgangspegels abgesenkt, während ein geloopter Herzschlag eingeblendet wird.
-- Mit der Rift-Öffnung startet ein eigener Rift-Sound.
-- Beim Crossing werden Idylle, Herzschlag und Rift ausgeblendet; der Tunnel-Sound beginnt mit einem 2,5-sekündigen Fade-in.
-- Ab dem finalen Tunnelabschnitt startet der Sog-Sound. Gleichzeitig wird der Tunnel-Sound über acht Sekunden abgesenkt.
-- Im White Room startet ein eigener Ton mit zweisekündigem Fade-in. In seinen letzten fünf Sekunden wird er ausgeblendet und steuert synchron die visuelle Rückkehr zur Idylle.
-
-Beim REEXPERIENCE-Reset werden Wiedergabepositionen, Lautstärken und laufbezogene Statuswerte zurückgesetzt. Alte Audioinstanzen laufen nicht parallel zum neuen Durchgang weiter.
-
-## 9. White Room
-
-Im letzten Tunnelabschnitt beginnt der Sog und ein bildschirmfüllender Weiß-Fade. Beim Erreichen des Tunnelendes bleibt das Bild vollständig weiß, während die Kamera und die Weltsysteme verdeckt zurückgesetzt werden. Anschließend umschließt eine große, nach innen gerenderte, unbeleuchtete weiße Kugel die Kamera als kantenloser White Room.
-
-Der White-Room-Ton bildet den auditiven Gegenpol zur vorangegangenen Überforderung. Während seines abschließenden Fades wird die weiße Ebene synchron abgesenkt und gibt die zurückgesetzte Idylle wieder frei. Tunnel, Rift, Videos, Tics, Geschwindigkeit und Sog sind zu diesem Zeitpunkt bereits zurückgesetzt.
-
-## 10. Twilight-Idylle
-
-Die zurückkehrende Landschaft verwendet dieselbe Geometrie und dieselben Objekte wie die anfängliche Idylle, erscheint aber als Blue-Hour-/Twilight-Zustand. Umgebung, Nebel, Fülllicht, Sonnenlicht, Himmelsemission und Sättigung werden auf eine kühlere, bläulich gedämpfte Stimmung gesetzt. Es gibt dafür keine zweite Welt und keinen zusätzlichen Postprocess.
-
-Die Twilight-Idylle bleibt bestehen, bis REEXPERIENCE ausgelöst wird. Der Ort ist derselbe; seine visuelle Wahrnehmung hat sich nach dem Tunnel verändert.
-
-## 11. REEXPERIENCE
-
-Der REEXPERIENCE-Button erscheint erst, nachdem der White-Room-Ton vollständig beendet ist und anschließend fünf Sekunden Stille vergangen sind. Auf dem Desktop wird er als DOM-Overlay gezeigt; in einer immersiven XR-Session erscheint er als pickbare Ebene vor der XR-Kamera.
-
-Ein Neustart stellt die warme Idylle wieder her und setzt Kamera, Rift, Tunnel, Videoquelle, Tic-Offset, Geschwindigkeit, Desaturation, White Fade, White Room und alle Audiozustände zurück. Der zweite Durchgang verwendet dieselbe bereits geladene Szene und beginnt erneut mit Video 12.
-
-## 12. WebXR und Meta Quest
-
-Die Anwendung basiert auf Babylon.js und verwendet die WebXR-Sessionart `immersive-vr`. Als Referenzraum wird primär `local-floor` angefordert; falls dieser nicht verfügbar ist, fällt die Initialisierung auf `local` zurück.
-
-Die XR-Kamera wird an denselben Locomotion-Root wie die Desktopkamera gehängt. Die Route bewegt und orientiert diesen Root, während die Headset-Pose weiterhin direkt auf der XR-Kamera arbeitet. Dadurch bleiben Kopfbewegung und stereoskopische Darstellung erhalten. Der XR-Render-Target verwendet Antialiasing, Depth, Stencil und Alpha mit einem `framebufferScaleFactor` von `0,8`.
-
-Controller-/Pointer-Auswahl wird nur für den REEXPERIENCE-Button aktiviert; Controller-Modelle werden dabei nicht geladen. Freie Controller-Lokomotion ist nicht Bestandteil der geführten Experience. Es gibt im aktuellen Code weder eine explizite Hardware-Scaling-Überschreibung noch Foveated Rendering.
-
-## 13. Performance
-
-Vorhandene Laufzeitmaßnahmen für Browser und Standalone-XR sind:
-
-- reduzierte XR-Framebuffer-Skalierung auf `0,8`;
-- Grassdarstellung über Thin Instances statt einzelner Grasmeshes;
-- maximal aktuelle plus vorbereitete Videoquelle und sofortige Freigabe alter `VideoTexture`-Quellen;
-- pausierte und zurückgesetzte Videos außerhalb der aktiven Tunnelphase;
-- GPU-Morph-Targets für Wandbewegung statt Geometrie-Neuberechnung pro Frame;
-- wiederverwendete Pools für die Pre-Rift-Lichtreflexe;
-- White Fade als 1×1-Textur auf einer Babylon-Layer statt eines zusätzlichen Render-Targets;
-- Twilight als Zustandsänderung vorhandener Lichter und Materialien ohne zusätzlichen Postprocess;
-- deaktiviertes Pointer-Move-Picking in der Szene.
-
-Die endgültige Bildrate, thermische Stabilität und der Komfort intensiver Bewegungsimpulse müssen weiterhin auf der Zielhardware geprüft werden.
-
-## 14. Technische Architektur
-
-Das Projekt ist eine statische ES-Module-Anwendung ohne Build-Schritt:
+Die Reizüberflutung entsteht nicht allein durch Lautstärke oder einen einzelnen starken Effekt. Entscheidend ist die wachsende Dichte gleichzeitig konkurrierender Informationen.
 
 ```text
-index.html     lädt Babylon.js, Stylesheet und Einstiegspunkt
-main.js        koordiniert Startscreen, Runs, WebXR und REEXPERIENCE
-scripts/       Szenen-, Übergangs-, Tunnel-, Audio-, UI- und XR-Module
-assets/        lokale 3D-Modelle, Texturen, Videos, Audio und UI-Bilder
+BILD + BEWEGUNG + RAUM + KLANG
 ```
 
-Wichtige Verantwortlichkeiten:
+Im letzten Tunneldrittel werden Klangereignisse dichter, Stimmen und Verkehr präsenter, visuelle Informationen intensiver und Bewegungsimpulse unberechenbarer. Die Systeme eskalieren bewusst nicht vollkommen synchron. Dadurch verlieren sich Orientierung und Vorhersehbarkeit schrittweise; Entlastungsmomente werden kürzer.
 
-- `scripts/core/`: Engine, Szenenaufbau, Run-State und WebXR-Initialisierung
-- `scripts/environment/`: Idylle, Landschaft, Vegetation, Lichtstörung und Farbzustände
-- `scripts/tunnel/`: Rift-/Crossing-Timeline, Tunnelgeometrie, Tics, Geschwindigkeit und Full-Tunnel-Video
-- `scripts/audio/`: getrennte Zustände für Idylle, Rift, Tunnel, Sog und White Room
-- `scripts/whiteRoom/`: White-Room-Geometrie und Weiß-Fade
-- `scripts/ui/`: Loading-/Startscreen und Desktop-/XR-REEXPERIENCE
+Der Höhepunkt entsteht aus maximaler audiovisueller Dichte, nicht aus maximaler Lautstärke.
 
-Babylon.js, der glTF-Loader und die Materials Library werden direkt vom Babylon-CDN geladen.
+### 8. Sog
 
-## 15. Assets
+Unterhalb der zunehmenden Reizdichte baut sich ein Sog auf. Er bleibt zunächst subtil und gewinnt erst im letzten Abschnitt an Präsenz. Am Höhepunkt bricht die vorherige Klangfülle vergleichsweise schnell zusammen. Der Sog tritt in den Vordergrund und führt aus dem Tunnel in den White Room.
 
-Das Repository enthält lokale glTF-/GLB-Modelle für Landschaft, Haus, Himmel und Vegetation, PBR-Texturen für Tunnel und Umgebung, MP4-Videos für die Tunnelprojektion sowie WAV-/AIFF-Audiodateien. Zur Laufzeit verwendet die Videosequenz ausschließlich die Dateien 12, 2, 25 und 16. Die Quellen externer visueller Assets sind in [ASSET_CREDITS.md](ASSET_CREDITS.md) dokumentiert.
+### 9. White Room
 
-Es werden keine absoluten lokalen Dateipfade benötigt oder veröffentlicht.
+Auf die maximale Reizdichte folgt maximale Reduktion. Die visuelle Umgebung wird vollständig weiß, während die komplexen Überlagerungen zusammenbrechen. Eine gleichmäßige synthetische Flatline unterstützt diesen Zustand akustisch.
 
-## 16. Lokale Entwicklung
-
-Es gibt keine npm-, Vite- oder andere Build-Konfiguration. Wegen ES-Modulen, Medien- und Browser-Sicherheitsregeln muss das Projekt über HTTP bereitgestellt werden. Im Repository-Verzeichnis genügt beispielsweise:
-
-```bash
-python3 -m http.server 8080
+```text
+MAXIMALE DICHTE
+→ ZUSAMMENBRUCH
+→ MAXIMALE REDUKTION
 ```
 
-Danach kann die Desktopversion unter `http://localhost:8080/` geöffnet werden. `file://` ist für den vollständigen Lauf nicht zuverlässig. Der Startscreen dient zugleich als erforderliche Nutzerinteraktion für Audio- und Videowiedergabe.
+Unter dem vollständigen Weiß werden Kamera, Rift, Tunnel, Video- und Bewegungszustände für die Rückkehr vorbereitet. Der White Room ist damit sowohl dramaturgischer Gegenpol als auch verdeckter Übergangsraum.
 
-## 17. GitHub Pages
+### 10. Twilight und Nachwirkung
 
-V4 wird als statische Seite über GitHub Pages bereitgestellt:
+Nach dem White Room kehrt die Experience in dieselbe Landschaft zurück. Die räumliche Struktur bleibt erhalten, doch ihre Wahrnehmung hat sich verändert. Die zuvor warme Idylle erscheint nun kühler, dunkler, bläulicher und gedämpfter.
 
-[https://johannesrother.github.io/Digitaler-Raum-Tunnel-zum-testen-v4/](https://johannesrother.github.io/Digitaler-Raum-Tunnel-zum-testen-v4/)
+> Gleicher Ort. Andere Wahrnehmung.
 
-WebXR benötigt einen sicheren Kontext. GitHub Pages erfüllt diese Voraussetzung über HTTPS; eine immersive Session setzt zusätzlich einen kompatiblen Browser und ein unterstütztes Headset voraus.
+Die Rückkehr ist kein unmittelbarer neutraler Reset. Sie bildet eine Nachwirkung der vorangegangenen Erfahrung und lässt die Ausgangssituation unter veränderten Bedingungen erneut lesbar werden.
 
-## 18. Team
+### 11. REEXPERIENCE
 
-Das Projekt wird aktuell von einem zweiköpfigen Team im Studiengang Objekt- und Raumdesign entwickelt. Im Repository sind die Namen und Rollen beider aktuellen Teammitglieder nicht eindeutig dokumentiert; deshalb werden hier keine Zuordnungen ergänzt.
+Nach Abschluss der Experience ermöglicht REEXPERIENCE einen weiteren Durchlauf. Audio-, Video-, Bewegungs-, Tunnel- und visuelle Zustände werden zurückgesetzt; die warme Ausgangsidylle wird wiederhergestellt. Der zweite Durchlauf nutzt die bereits geladene Szene und beginnt erneut in der ursprünglichen Ausgangssituation.
 
-## 19. Aktueller Status
+## Gestalterisches Prinzip
 
-### Implementiert
+THRESHOLD basiert auf dem Zusammenspiel von vier Ebenen:
 
-- vollständiger Ablauf von warmer Idylle bis Twilight-Rückkehr und REEXPERIENCE;
-- transparentes Rift mit Stencil-Crossing, Glare, Nachbildern und Audioübergang;
-- kontinuierlicher biomorpher Tunnel mit Verengung, Morphbewegung und Beleuchtung;
-- Full-Tunnel-Video in der Sequenz `12 → 2 → 25 → 16`;
-- diskrete Einzel-, Doppel- und Dreifach-Tics mit erhaltenem XR-Headtracking;
-- variable Vorwärtsgeschwindigkeit zwischen `0,45×` und `2,8×`;
-- getrennte Audiozustände für Idylle, Herzschlag, Rift, Tunnel, Sog und White Room;
-- White Fade, White Room, synchronisierte Twilight-Rückkehr und wiederholbarer Reset;
-- Desktopbetrieb und optionaler WebXR-Einstieg mit XR-REEXPERIENCE.
+### Raum
 
-### Experimentell
+Die räumliche Wirkung verändert sich von einer offenen Landschaft über eine durchlässige Schwelle hin zu einem zunehmend verengten Tunnel und schließlich zu einem entgrenzten weißen Raum.
 
-- künstlerische Feinabstimmung der Tic-Stärken, Geschwindigkeitswechsel und Video-Cuts;
-- Komfort und Wirkung der körperlichen Verengung in längeren VR-Tests.
+### Bewegung
 
-### Bekannte Einschränkungen
+Geführte Vorwärtsbewegung, wechselnde Geschwindigkeit und abrupte Impulse beeinflussen die körperliche Wahrnehmung. Der reale Blick bleibt in WebXR beweglich, während die virtuelle Bewegung zusätzliche Irritation erzeugt.
 
-- Immersives WebXR funktioniert nur in unterstützten Browsern, auf kompatibler Hardware und in einem sicheren Kontext.
-- Audio- und Videostart hängen von der initialen Nutzerinteraktion und den Medienregeln des Browsers ab.
-- Babylon.js und Zusatzbibliotheken werden vom CDN geladen; für den Erstaufruf ist daher eine Netzwerkverbindung erforderlich.
-- Quest-Performance, thermische Stabilität und Bewegungskomfort müssen auf der jeweiligen Zielhardware abschließend validiert werden.
+### Bild
 
-## 20. Version
+Transparenz, projizierte Videos, Überlagerungen, Farbverlust und vollständiges Weiß verändern die visuelle Orientierung. Der spätere Twilight-Zustand überträgt die Nachwirkung auf den Ausgangsort.
 
-V4 ist der aktuelle Entwicklungs- und Experimentalstand. V3 bleibt als früherer stabiler, eingefrorener Stand erhalten und wird durch Arbeiten an V4 nicht verändert.
+### Klang
+
+Idylle, Herzschlag, Tunnelklang, Stimmen, Verkehr, Klangfragmente, Sog und Flatline bilden eine Dramaturgie zunehmender Dichte und anschließender Reduktion.
+
+Keine dieser Ebenen funktioniert isoliert. Die Erfahrung entsteht aus ihrer zeitlichen und räumlichen Überlagerung.
+
+## Technische Umsetzung
+
+THRESHOLD wurde als statische browserbasierte VR-/WebXR-Anwendung entwickelt. Die Experience läuft direkt im Browser und benötigt keine native VR-App sowie keinen Build-Schritt.
+
+Technische Grundlage:
+
+- Webtechnologien und JavaScript-Module
+- WebXR mit `immersive-vr`
+- Babylon.js
+- glTF-/GLB-Modelle, lokale Texturen, Videos und Audiodateien
+- Git und GitHub
+- GitHub Pages
+
+Die XR-Kamera ist in die geführte Bewegung eingebunden, ohne das reale Headtracking zu ersetzen. Als Referenzraum wird primär `local-floor` verwendet; falls dieser nicht verfügbar ist, greift die bestehende Implementierung auf `local` zurück. Die finale XR Render Scale beträgt `1.00`.
+
+Das Projekt ist modular aufgebaut:
+
+```text
+index.html     Startpunkt und Laden der Browserbibliotheken
+main.js        Koordination von Start, Experience und REEXPERIENCE
+scripts/       Szene, Umgebung, Tunnel, Audio, UI und WebXR
+assets/        Modelle, Texturen, Videos, Sounds und UI-Bilder
+tests/         Regressionstests für den Audio-Lifecycle
+```
+
+Babylon.js, der glTF-Loader und die Materials Library werden über das Babylon-CDN geladen. Die eigentlichen Projektmedien liegen im Repository. Angaben zu verwendeten externen visuellen Assets sind in [ASSET_CREDITS.md](ASSET_CREDITS.md) dokumentiert.
+
+## Performance und VR
+
+Da THRESHOLD direkt im Browser eines Standalone-VR-Headsets läuft, war die Laufzeitperformance ein wesentlicher Teil der Entwicklung. Die finale Version wurde wiederholt auf der Meta Quest 3 geprüft.
+
+Zu den umgesetzten Maßnahmen gehören:
+
+- für die Quest angepasste Videodateien
+- begrenzte Anzahl gleichzeitig aktiver Videoressourcen
+- Wiederverwendung und kontrolliertes Zurücksetzen von Audioquellen
+- reduzierte Vegetationsdichte in WebXR bei erhaltener räumlicher Verteilung
+- gezielte Ausblendung des Außengrases beim Tunneleintritt
+- Freigabe nicht mehr benötigter Video- und Laufzeitressourcen
+- WebXR-spezifische Renderkonfiguration mit einer finalen Render Scale von `1.00`
+
+Diese Maßnahmen verändern nicht die dramaturgische Struktur. Sie sichern die browserbasierte Darstellung auf der Zielhardware ab.
+
+## Entwicklungsprozess
+
+Konzept, Gestaltung und technische Umsetzung wurden iterativ entwickelt. Zwischenstände wurden direkt im Browser und regelmäßig auf der Meta Quest 3 bewertet. Räumliche Wirkung, Bewegungsintensität, Bildüberlagerung, Klangdichte und Übergänge wurden dabei nicht getrennt, sondern als zusammenhängender Erfahrungsablauf abgestimmt.
+
+Für die technische Entwicklung kam außerdem ein KI-gestützter Coding-Workflow mit Codex zum Einsatz. Codex diente als Entwicklungswerkzeug; Konzeption, Gestaltung, dramaturgische Entscheidungen, Auswahl der Inhalte sowie die Bewertung und Freigabe der Ergebnisse lagen beim Projektteam.
+
+## Projektteam
+
+### Malte Bongartz
+
+Schwerpunkte:
+
+- Asset-Recherche
+- visuelle Gestaltung der Idylle
+- Skybox, Haus, Hügel und Vegetation
+- Entwicklung der Grundform des Tunnels
+- Recherche und Auswahl des Videomaterials
+
+### Johannes Rother-Stawitzki
+
+Schwerpunkte:
+
+- Weiterentwicklung der VR-Dramaturgie
+- Kamerafahrt und Tunnelablauf
+- Tic- und Bewegungsdramaturgie
+- Geschwindigkeitsdramaturgie
+- Videoeinbindung und Videowechsel
+- Sounddesign, Audioeskalation und Integration der Klangquellen
+- Sog und Übergang zum White Room
+- White-Room- und Flatline-Ablauf
+- WebXR- und Quest-Umsetzung
+- Testing und Performance-Optimierung
+- Reset und REEXPERIENCE
+
+### Gemeinsame Entwicklung
+
+Konzeptentwicklung und Aufbau der VR-Welt erfolgten gemeinsam. Die Arbeit entstand im Kurs **Digitaler Raum** des Bachelorstudiengangs **Objekt- und Raumdesign**.
+
+## Abschluss
+
+THRESHOLD versucht nicht, Tourette vollständig abzubilden oder zu simulieren. Die Arbeit untersucht vielmehr, wie sich Kontrollverlust, unwillkürliche Impulse und Reizüberflutung durch das Zusammenspiel von Raum, Bewegung, Bild und Klang in eine körperlich erfahrbare virtuelle Situation übersetzen lassen.
